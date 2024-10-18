@@ -4,10 +4,12 @@ type: 'Site'
 install:
   # Core.
   - media
+  - media_library
   - node
   - options
   # Contrib.
   - field_group
+  - media_library_edit
 config:
   actions:
     # Add Header fields to all content types that are installed.
