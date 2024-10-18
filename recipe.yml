@@ -11,6 +11,8 @@ install:
   - field_group
   - media_library_edit
 config:
+  import:
+    media_library: '*'
   actions:
     # Add Header fields to all content types that are installed.
     field.storage.node.sa_description:
