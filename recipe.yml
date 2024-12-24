@@ -13,6 +13,14 @@ install:
   - field_group
   - media_library_edit
 config:
+  strict:
+    - field.storage.node.sa_description
+    - field.storage.node.sa_featured_media
+    - field.storage.node.sa_header_position
+    - field.storage.node.sa_hide_header
+    - field.storage.node.sa_include_mute_button
+    - field.storage.node.sa_include_pause_button
+    - field.storage.node.sa_overlay
   import:
     media_library: '*'
   actions:
