@@ -24,6 +24,19 @@ config:
   import:
     media_library: '*'
   actions:
+    block.block.saplings_child_views_block__hero_block_1:
+      placeBlockInDefaultTheme:
+        id: saplings_child_views_block__hero_block_1
+        # The region accepts an array keyed by theme name.
+        region:
+          saplings_child: hero
+          gesso: content
+          olivero: content
+        # A fallback used if no match found in the region array.
+        default_region: content
+        # Place the block before any blocks already in the region.
+        position: first
+        plugin: views_block:hero-block_1
     # Add Header fields to all content types that are installed.
     field.storage.node.sa_description:
       addToAllBundles:
