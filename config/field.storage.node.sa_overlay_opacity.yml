@@ -4,21 +4,24 @@ dependencies:
   module:
     - node
     - options
-id: node.sa_header_position
-field_name: sa_header_position
+id: node.sa_overlay_opacity
+field_name: sa_overlay_opacity
 entity_type: node
 type: list_string
 settings:
   allowed_values:
     -
-      value: justify-content-lg-start
-      label: Top
+      value: bg-opacity-10
+      label: 10%
     -
-      value: justify-content-lg-center
-      label: Middle
+      value: bg-opacity-25
+      label: 25%
     -
-      value: justify-content-lg-end
-      label: Bottom
+      value: bg-opacity-50
+      label: 50%
+    -
+      value: bg-opacity-75
+      label: 75%
   allowed_values_function: ''
 module: options
 locked: false
