@@ -21,6 +21,7 @@ config:
     - field.storage.node.sa_include_mute_button
     - field.storage.node.sa_include_pause_button
     - field.storage.node.sa_overlay
+    - field.storage.node.sa_overlay_opacity
   import:
     media_library: '*'
   actions:
@@ -53,6 +54,10 @@ config:
       addToAllBundles:
         label: 'Overlay'
         description: 'Adds an light or dark overlay on top of the featured media for readability.'
+    field.storage.node.sa_overlay_opacity:
+      addToAllBundles:
+        label: 'Overlay Opacity'
+        description: 'Adds an opacity over the featured media.'
     # To set settings on this fields we need to also hit the field instances
     # after they have been created.
     field.field.node.*.sa_featured_media:
@@ -168,6 +173,7 @@ config:
               - sa_description
               - sa_featured_media
               - sa_overlay
+              - sa_overlay_opacity
               - sa_header_position
               - sa_hide_header
               - sa_include_mute_button
