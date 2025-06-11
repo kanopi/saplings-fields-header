@@ -21,7 +21,7 @@ settings:
       label: Dark
     -
       value: 'bg-light bg-gradient text-dark'
-      label: LIght
+      label: Light
     -
       value: 'bg-black bg-gradient text-white'
       label: Black
