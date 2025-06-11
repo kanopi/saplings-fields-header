@@ -11,13 +11,13 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: position_top
+      value: justify-content-lg-start
       label: Top
     -
-      value: position_middle
+      value: justify-content-lg-center
       label: Middle
     -
-      value: position_bottom
+      value: justify-content-lg-end
       label: Bottom
   allowed_values_function: ''
 module: options
