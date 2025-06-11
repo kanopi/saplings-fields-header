@@ -11,29 +11,20 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: light_90
-      label: 'Light - 90%'
+      value: 'bg-primary bg-gradient text-white'
+      label: Primary
     -
-      value: light_75
-      label: 'Light - 75%'
+      value: 'bg-secondary bg-gradient text-white'
+      label: Secondary
     -
-      value: light_50
-      label: 'Light- 50%'
+      value: 'bg-dark bg-gradient text-white'
+      label: Dark
     -
-      value: light_25
-      label: 'Light - 25%'
+      value: 'bg-light bg-gradient text-dark'
+      label: LIght
     -
-      value: dark_90
-      label: 'Dark - 90%'
-    -
-      value: dark_75
-      label: 'Dark - 75%'
-    -
-      value: dark_50
-      label: 'Dark - 50%'
-    -
-      value: dark_25
-      label: 'Dark - 25%'
+      value: 'bg-black bg-gradient text-white'
+      label: Black
   allowed_values_function: ''
 module: options
 locked: false
